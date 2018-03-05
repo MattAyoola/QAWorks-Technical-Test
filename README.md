@@ -1,2 +1,1 @@
-Launch the Project
-Please run the test using Test Explorer
+Launch the Project then run the test using Test Explorer

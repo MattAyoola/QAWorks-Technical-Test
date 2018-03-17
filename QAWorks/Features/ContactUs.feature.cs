@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace QAWorks
+namespace QAWorks.Features
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace QAWorks
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "ContactUsPage")))
             {
-                global::QAWorks.ContactUsPageFeature.FeatureSetup(null);
+                global::QAWorks.Features.ContactUsPageFeature.FeatureSetup(null);
             }
         }
         

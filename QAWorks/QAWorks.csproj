@@ -83,19 +83,21 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ContactModel.cs" />
-    <Compile Include="ContactUsSteps.cs" />
-    <Compile Include="ContactUs.feature.cs">
+    <Compile Include="Helper\Context.cs" />
+    <Compile Include="Hooks\Setup.cs" />
+    <Compile Include="Model\ContactModel.cs" />
+    <Compile Include="Steps\ContactUsSteps.cs" />
+    <Compile Include="Features\ContactUs.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ContactUs.feature</DependentUpon>
     </Compile>
-    <Compile Include="ContactPage.cs" />
+    <Compile Include="Pages\ContactPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ContactUs.feature">
+    <None Include="Features\ContactUs.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ContactUs.feature.cs</LastGenOutput>
     </None>
@@ -104,6 +106,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

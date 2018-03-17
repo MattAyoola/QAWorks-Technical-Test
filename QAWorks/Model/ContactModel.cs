@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace QAWorks
+namespace QAWorks.Model
 {
     public class ContactModel 
     {

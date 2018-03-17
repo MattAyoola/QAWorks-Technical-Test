@@ -30,7 +30,7 @@ namespace QAWorks.Steps
         public void IAmOnTheQAWorksSite()
         {
             var pageTitle = "QAWorks Limited - Software Quality & Delivery Experts";
-            Assert.AreEqual(pageTitle, _context.PageTitle(), "Not on the expected site");
+            Assert.AreEqual(pageTitle, _context.PageTitle(), "Error: Not on the expected site");
         }
 
         [When(@"I navigate to contact us section")]
